@@ -4,6 +4,7 @@ const connectionString = 'postgresql://postgres:postgres@localhost:5432/testdb'
 
 if (process.argv.length < 3) {
   console.log("input command")
+
 }else{
   if (process.argv[2] === 'insert'){
     console.log('insert into user')
